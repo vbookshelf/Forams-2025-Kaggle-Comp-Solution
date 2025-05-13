@@ -24,3 +24,16 @@ Test data:
 - 18,216 unlabeled volumes
 - 18,216 unlabeled RGB images
 
+### Solution Overview
+- Use only the 210 RGB images for model training
+- Model: swin_large_patch4_window12_384 (from the Timm package)
+- Use heavy image augmentation to reduce overfitting and improve the chances that the model will generalize well.
+- Resize images from 300x300 to 384x384 to match the input size that the Swin model needs.
+- Step 1: Train five folds using the surface rendering (bottom half of image).
+- Step 2: Train five folds using the volume rendering (top half of image).
+- Step 3: Ensemble (average) the preds of all 10 fold models that were trained in steps 1 and 2.
+
+### Results
+
+### Jupyter notebooks
+
