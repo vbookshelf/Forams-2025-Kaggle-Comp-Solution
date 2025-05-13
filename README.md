@@ -19,6 +19,7 @@ Classify volumetric images of forams into one of 15 classes (14 foram species an
 Training data:
 - 210 labeled volumes
 - 210 RGB images of the labeled volumes - sample shown above. Each image shows a volume rendering and a surface rendering.
+- No labeled examples of the "unknown" class were provided.
 
 Test data:
 - 18,216 unlabeled volumes
