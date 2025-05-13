@@ -46,11 +46,11 @@ Public LB: 0.70453<br>
 Private LB:<br>
 
 Step 3: Average the test set predictions of all 10 fold models (Exp 26)<br> 
-Public LB:0.83469<br>
+Public LB: 0.83469<br>
 Private LB:<br>
 
 Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
-Public LB:0.83469<br>
+Public LB: 0.83469<br>
 Private LB:<br>
 
 ### Jupyter notebooks
