@@ -20,7 +20,7 @@ Training data:
 - 210 labeled volumes
 - 210 RGB images of the labeled volumes - sample shown above. Each image shows a volume rendering and a surface rendering.
 
-Test data
+Test data:
 - 18,216 unlabeled volumes
 - 18,216 unlabeled RGB images
 
