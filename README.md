@@ -63,5 +63,5 @@ https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter
 Step 3: Average the test set predictions of all 10 fold models (Exp26)<br>
 https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter-notebooks/exp26-forams-ensemble-exp23-and-exp24-preds.ipynb
 
-Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
+Step 4: Determine the "unknown" class (class 14) based on the predicted probabilities in step 3 (Exp27)<br>
 https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter-notebooks/exp27-forams-identify-class-14-using-exp26-probs.ipynb
