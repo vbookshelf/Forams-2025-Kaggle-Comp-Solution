@@ -55,9 +55,13 @@ Private LB:<br>
 
 ### Jupyter notebooks
 Step 1: Train five folds using volume rendering images (Exp23)<br>
+https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter-notebooks/exp23-forams-train-models-using-volume-rendering-image.ipynb
 
 Step 2: Train five folds using surface rendering images (Exp24)<br>
+https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter-notebooks/exp24-forams-train-models-using-surface-rendering-image.ipynb
 
 Step 3: Average the test set predictions of all 10 fold models (Exp26)<br>
+https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter-notebooks/exp26-forams-ensemble-exp23-and-exp24-preds.ipynb
 
 Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
+https://github.com/vbookshelf/Forams-2025-Kaggle-Comp-Solution/blob/main/jupyter-notebooks/exp27-forams-identify-class-14-using-exp26-probs.ipynb
