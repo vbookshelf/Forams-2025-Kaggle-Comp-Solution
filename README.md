@@ -31,10 +31,12 @@ Test data:
 - Model: swin_large_patch4_window12_384 (from the Timm package)
 - Use heavy image augmentation to reduce overfitting and improve the chances that the model will generalize well.
 - Resize images from 300x300 to 384x384 to match the input size that the Swin model needs.
+
+Approach:<br>
 - Step 1: Train five folds using the volume rendering (top half of image) (Exp23)
 - Step 2: Train five folds using the surface rendering (bottom half of image) (Exp24)
 - Step 3: Ensemble (average) the test set predictions of all 10 fold models that were trained in steps 1 and 2. (Exp 26)
-- Step 4: Determine the "unknown" class (class 14) based on the prediction probability scores from step 3. If a probability is <= 0.25 then assign that test example to class 14.
+- Step 4: Determine the "unknown" class (class 14) based on the predicted probabilities from step 3. If a probability is <= 0.25 then assign that test example to the "unknown" class (class 14).
 
 ### Leaderboard scores
 Step 1: Train five folds using volume rendering images (Exp23)<br>
