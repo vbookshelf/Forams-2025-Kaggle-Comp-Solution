@@ -31,9 +31,14 @@ Test data:
 - Resize images from 300x300 to 384x384 to match the input size that the Swin model needs.
 - Step 1: Train five folds using the surface rendering (bottom half of image).
 - Step 2: Train five folds using the volume rendering (top half of image).
-- Step 3: Ensemble (average) the preds of all 10 fold models that were trained in steps 1 and 2.
+- Step 3: Ensemble (average) the test set predictions of all 10 fold models that were trained in steps 1 and 2.
 
 ### Results
 
 ### Jupyter notebooks
+Step 1:
+
+Step 2:
+
+Step 3:
 
