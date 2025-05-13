@@ -31,28 +31,33 @@ Test data:
 - Model: swin_large_patch4_window12_384 (from the Timm package)
 - Use heavy image augmentation to reduce overfitting and improve the chances that the model will generalize well.
 - Resize images from 300x300 to 384x384 to match the input size that the Swin model needs.
-- Step 1: Train five folds using the surface rendering (bottom half of image).
-- Step 2: Train five folds using the volume rendering (top half of image).
-- Step 3: Ensemble (average) the test set predictions of all 10 fold models that were trained in steps 1 and 2.
+- Step 1: Train five folds using the volume rendering (top half of image) (Exp23)
+- Step 2: Train five folds using the surface rendering (bottom half of image) (Exp24)
+- Step 3: Ensemble (average) the test set predictions of all 10 fold models that were trained in steps 1 and 2. (Exp 26)
+- Step 4: Determine the "unknown" class (class 14) based on the prediction probability scores from step 3. If a probability is <= 0.25 then assign that test example to class 14.
 
 ### Leaderboard scores
-Step 1: Train five folds using surface rendering images<br>
-Public LB:<br>
+Step 1: Train five folds using volume rendering images (Exp23)<br>
+Public LB: 0.78425<br>
 Private LB:<br>
 
-Step 2: Train five folds using volume rendering images<br>
-Public LB:<br>
+Step 2: Train five folds using surface rendering images (Exp24)<br>
+Public LB: 0.70453<br>
 Private LB:<br>
 
-Step 3: Average the test set predictions of all 10 fold models / Identify the unknown class<br>
-Public LB:<br>
+Step 3: Average the test set predictions of all 10 fold models (Exp 26)<br> 
+Public LB:0.83469<br>
 Private LB:<br>
 
+Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
+Public LB:0.83469<br>
+Private LB:<br>
 
 ### Jupyter notebooks
-Step 1: Train five folds using surface rendering images
+Step 1: Train five folds using volume rendering images (Exp23)<br>
 
-Step 2: Train five folds using volume rendering images
+Step 2: Train five folds using surface rendering images (Exp24)<br>
 
-Step 3: Average the test set predictions of all 10 fold models  / Identify the unknown class
+Step 3: Average the test set predictions of all 10 fold models (Exp26)<br>
 
+Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
