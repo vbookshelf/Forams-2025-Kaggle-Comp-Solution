@@ -1,2 +1,4 @@
-# Forams-2025-Kaggle-Comp-Solution
-1st Place Solution
+## Forams Classification 2025 - 1st Place Solution
+
+Kaggle competition page:<br>
+https://www.kaggle.com/competitions/forams-classification-2025
