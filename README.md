@@ -47,12 +47,12 @@ Step 2: Train five folds using surface rendering images (Exp24)<br>
 Public LB: 0.70453<br>
 Private LB:<br>
 
-Step 3: Average the test set predictions of all 10 fold models (Exp 26) <i>[Selected submission]</i><br> 
-Public LB: 0.83469<br>
+Step 3: Average the test set predictions of all 10 fold models (Exp 26)<br> 
+Public LB: 0.83469 <i>[Selected submission no. 1]</i><br>
 Private LB:<br>
 
-Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27) <i>[Selected submission]</i><br>
-Public LB: 0.83469<br>
+Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
+Public LB: 0.83469 <i>[Selected submission no. 2]</i><br>
 Private LB:<br>
 
 ### Jupyter notebooks
