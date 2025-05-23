@@ -26,7 +26,7 @@ Test data:
 - 18,216 unlabeled RGB images
 
 ### Solution Overview
-- Use only the 210 RGB images for model training
+- Use only the 210 RGB images for model training and validation.
 - Train only on 14 classes i.e. don't consider the "unknown class" during model training.
 - Model: swin_large_patch4_window12_384 (from the Timm package)
 - Use heavy image augmentation to reduce overfitting and improve the chances that the model will generalize well.
