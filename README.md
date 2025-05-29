@@ -53,7 +53,7 @@ Private LB: 0.66098<br>
 
 Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
 Public LB: 0.83469 <i>[Selected submission no. 2]</i><br>
-Private LB: 0.66393<i>[4th Place]</i><br>
+Private LB: 0.66393<i> [4th Place]</i><br>
 
 ### Jupyter notebooks
 Step 1: Train five folds using volume rendering images (Exp23)<br>
