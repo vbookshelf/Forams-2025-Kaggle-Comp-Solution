@@ -38,6 +38,9 @@ Approach:<br>
 - Step 3: Ensemble (average) the test set predictions of all 10 fold models that were trained in steps 1 and 2. (Exp 26)
 - Step 4: Determine the "unknown" class (class 14) based on the predicted probabilities from step 3. If a probability is <= 0.25 then assign that test example to the "unknown" class (class 14).
 
+### Hardware
+- P100 GPU in Kaggle Notebooks
+
 ### Leaderboard scores
 Step 1: Train five folds using volume rendering images (Exp23)<br>
 Public LB: 0.78425<br>
