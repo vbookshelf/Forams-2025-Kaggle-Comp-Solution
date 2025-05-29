@@ -1,4 +1,4 @@
-## Forams Classification 2025 - 1st Place Solution
+## Forams Classification 2025 - 4th Place Solution
 
 Kaggle competition page:<br>
 https://www.kaggle.com/competitions/forams-classification-2025
@@ -41,19 +41,19 @@ Approach:<br>
 ### Leaderboard scores
 Step 1: Train five folds using volume rendering images (Exp23)<br>
 Public LB: 0.78425<br>
-Private LB:<br>
+Private LB:0.58563<br>
 
 Step 2: Train five folds using surface rendering images (Exp24)<br>
 Public LB: 0.70453<br>
-Private LB:<br>
+Private LB: 0.60292<br>
 
 Step 3: Average the test set predictions of all 10 fold models (Exp 26)<br> 
 Public LB: 0.83469 <i>[Selected submission no. 1]</i><br>
-Private LB:<br>
+Private LB: 0.66098<br>
 
 Step 4: Determine the "unknown" class (class 14) based on prediction probability scores (Exp27)<br>
 Public LB: 0.83469 <i>[Selected submission no. 2]</i><br>
-Private LB:<br>
+Private LB: 0.66393<i>[4th Place]</i><br>
 
 ### Jupyter notebooks
 Step 1: Train five folds using volume rendering images (Exp23)<br>
